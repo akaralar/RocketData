@@ -3,11 +3,11 @@
 use_frameworks!
 
 target :'RocketData' do
-  pod 'ConsistencyManager', '~> 4.0.0'
+  pod 'ConsistencyManager', :git => 'https://github.com/linkedin/ConsistencyManager-iOS.git'
 end
 
 target :'RocketDataTests' do
-  pod 'ConsistencyManager', '~> 4.0.0'
+  pod 'ConsistencyManager', :git => 'https://github.com/linkedin/ConsistencyManager-iOS.git'
 end
 
 # This is necessary to convert the target to swift 3.0
